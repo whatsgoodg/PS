@@ -3,7 +3,7 @@ There will be codse for BackJoon wrritten in C++<br>
 The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
-Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br>
+Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br><br><br>
 
 
 <h1>Skills for Problem Solving</h1>
