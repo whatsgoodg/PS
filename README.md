@@ -4,7 +4,7 @@ The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br><br><br><br><br><br>
-
+*중요
 
 <h1>Skills for Problem Solving</h1>
   <h2>1. Useful Tips</h2>
