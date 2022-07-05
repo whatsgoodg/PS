@@ -31,7 +31,7 @@ return: 가장 큰 원소를 가리키는 iterator를 반환한다.<br>
 동일한 원소가 두 개 이상 저장되어 있다면 가장 첫 번째의 원소를 가리키는 iterator를 반환한다.<br>
 size < 1 경우, end를 가리키는 iterator를 반환한다.<br>
 
-<h3>fill (ForwardIterator first, ForwardIterator last, val v)
+<h3>fill (ForwardIterator first, ForwardIterator last, val v)</h3>
 <algorithm> header에 있는 함수이다.<br>
 container의 [first, last) 범위 안 원소를 v로 초기화하는 함수이다.<br>
 첫 번째, 두 번째 인자는 위의 함수와 동일하다.<br>
