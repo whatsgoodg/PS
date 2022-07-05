@@ -10,5 +10,4 @@ int main() {
 	
 	for (char i : word) alphabet[i - 97]++;
 	for (int i : alphabet) cout << i << " ";
-
 }
