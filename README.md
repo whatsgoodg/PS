@@ -22,7 +22,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br
   이러한 flush는 시간이 상당히 걸리기에, 이것을 cin과 cout의 tie를 풀어준다.<br>
   같은 맥락으로 endl는 절대 사용하지 않는다.<br>
   
-  <h2>Useful Functions</h2>
+  <h2>2. Useful Functions</h2>
   <h3>max_element (ForwardIterator first, ForwardIterator last)</h3>
   <algorithm> header에 있는 함수이다.
   first: begin을 가리키는 iterator(주소)를 인자로 전달한다.<br>
