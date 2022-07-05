@@ -12,7 +12,6 @@ int main() {
 		a = b;
 		b = tmp;
 	}
-
 	string sum = "";
 	char ten = '0';
 	//when units become tens, it is needed to be added to next ones 
