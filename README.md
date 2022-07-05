@@ -14,7 +14,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br
   컴파일 시간이 좀 늘어날지 몰라도 코딩 테스트에선 이점을 얻을 수 있다.<br>
   
   <h3>ios::sync_with_stdio(0)</h3>
-  간단히 cout과 scanf를 같이 사용한다면 순서에 맞게 출력이 되어야 하므로 C++ stream과 C stream는 동기화가 이루어진다.
+  간단히 cout과 scanf를 같이 사용한다면 순서에 맞게 출력이 되어야 하므로 C++ stream과 C stream는 동기화가 이루어진다.<br>
   이것을 끊어줌으로써 시간 복잡도 측면에서 이득이다. 이후에 scanf나 printf를 사용하면 안 된다.
   
   <h3>cin.tie(0)</h3>
