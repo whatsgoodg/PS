@@ -21,5 +21,6 @@ int main() {
 		else if (temp < 26) sum += 10;
 
 	}
+	
 	cout << sum << endl;
 }
