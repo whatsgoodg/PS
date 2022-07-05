@@ -1,4 +1,4 @@
-<h1>For Coding Test/h1>
+<h1>For Coding Test</h1>
 There will be codse for BackJoon wrritten in C++<br>
 The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
