@@ -15,7 +15,8 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br
   
   <h3>ios::sync_with_stdio(0)</h3>
   간단히 cout과 scanf를 같이 사용한다면 순서에 맞게 출력이 되어야 하므로 C++ stream과 C stream는 동기화가 이루어진다.<br>
-  이것을 끊어줌으로써 시간 복잡도 측면에서 이득이다. 이후에 scanf나 printf를 사용하면 안 된다.
+  이것을 끊어줌으로써 시간 복잡도 측면에서 이득이다.<br> 
+  이후에 scanf나 printf를 사용하면 안 된다.<br>
   
   <h3>cin.tie(0)</h3>
   C++에서 입력 후에 출력 순서를 맞추어 주기 위해 cin을 받기 전에 cout 버퍼를 모두 비워준다.<br>
@@ -24,7 +25,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br><br><br
   
   <h2>2. Useful Functions</h2>
   <h3>max_element (ForwardIterator first, ForwardIterator last)</h3>
-  <algorithm> header에 있는 함수이다.
+  <algorithm> header에 있는 함수이다.<br>
   first: begin을 가리키는 iterator(주소)를 인자로 전달한다.<br>
   last: end를 가리키는 iterator(주소)를 인자로 전달한다.<br>
   return: 가장 큰 원소를 가리키는 iterator를 반환한다.<br>
