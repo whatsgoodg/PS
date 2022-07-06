@@ -19,7 +19,6 @@ int main() {
 		else if (temp < 19) sum += 8; //when there are four
 		else if (temp < 22) sum += 9;
 		else if (temp < 26) sum += 10;
-
 	}
 	cout << sum << endl;
 }
