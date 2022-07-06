@@ -6,7 +6,6 @@ int main() {
 	cin >> word;
 	
 	int alphabet[26]{};
-	
 	for (char i : word) alphabet[i - 97]++;
 	for (int i : alphabet) cout << i << " ";
 }
