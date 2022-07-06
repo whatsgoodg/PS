@@ -21,6 +21,5 @@ int main() {
 			arr[arr2[i]]--;
 			cnt++;
 		}
-
 	cout << cnt;
 }
