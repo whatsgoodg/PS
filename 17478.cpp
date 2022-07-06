@@ -26,7 +26,6 @@ void recur(int max, int n) {
 }		
 
 int main() {
-	
 	int n;
 	cin >> n;
 	
