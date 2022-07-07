@@ -24,12 +24,12 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   같은 맥락으로 endl는 절대 사용하지 않는다.<br><br>
   
   ## 2. How to use data structure   
-  알고리즘 문제를 해결할 때, 필자처럼 선형 자료구조인 배열 개수를 하나'만' 이용하여 처음부터 끝까지 원소를 탐색하며   
+  알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이 선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며   
   조건에 맞는 소스코드를 작성했을 것이다. 예를 들어, 백준 [10808](https://www.acmicpc.net/problem/10808)번을 해결할 반복문을 보자. 
    ```cpp    
       for(int i = 0; i < 26; i++){    
           for(int j = 0; j < str.size(); j++){    
-              if(str[j] == i - 97) cnt++;    
+              if(str[j] == i + 97) cnt++;    
           }    
           cout << cnt << " ";    
           cnt = 0;    
@@ -46,8 +46,8 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
      }    
   ```    
       
-  바로 이렇게 배열 하나만 더 만들어주는 것이다. 공간 복잡도는 조금 늘어날 수 있으나, 코딩 테스트에서 요구하는 공간 복잡도를    
-  넘길 정도는 절대 아니다.(물론 넘기는 경우엔 다른 알고리즘을 요구하는게 분명할거다.)   
+  바로 이렇게 배열 하나만 더 만들어주는 것이다. 공간 복잡도는 조금 늘어날 수 있으나, 
+  코딩 테스트에서 요구하는 공간 복잡도를 넘길 정도는 절대 아니다.(물론 넘기는 경우엔 다른 알고리즘을 요구하는게 분명할거다.)   
   이런 식으로 배열 하나를 더 추가함으로써 문제해결을 손쉽게 할 수 있게 된다.<br><br>
   
   ## 3. Useful Functions
