@@ -26,7 +26,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ## 2. How to use data structure   
   알고리즘 문제를 해결할 때, 필자처럼 선형 자료구조인 배열 개수를 하나'만' 이용하여 처음부터 끝까지 원소를 탐색하며   
   조건에 맞는 소스코드를 작성했을 것이다. 예를 들어,   
-      ```cpp
+      ```C++
       for(int i = 0; i < n; i++)
       ```
   
