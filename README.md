@@ -24,7 +24,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   
   # 2. How to use data structure 
   ## Array
-  알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이 선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며   
+  알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이 선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며      
   조건에 맞는 소스코드를 작성했을 것이다. 예를 들어, 백준 [10808](https://www.acmicpc.net/problem/10808)번을 해결할 반복문을 보자. 
    ```cpp    
       for(int i = 0; i < 26; i++){    
@@ -37,7 +37,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ```    
       
   알파벳 개수를 출력하는 문제로 이중 배열을 사용하여 시간 복잡도가 O(26 * N)가 걸리는 것을 볼 수 있다.   
-  배열과 반복문 문법만 안일하게 사용하여 벌어진 실수이다. 이것을 O(N)으로 해결할 수 있는 방법이 있다.   
+  배열과 반복문 문법만 안일하게 사용하여 벌어진 실수이다. 이것을 O(N)으로 해결할 수 있는 방법이 있다.    
   
   ```cpp    
      char alphabet[26]{};    
