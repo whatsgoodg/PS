@@ -26,8 +26,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ## 2. How to use data structure   
   알고리즘 문제를 해결할 때, 필자처럼 선형 자료구조인 배열 개수를 하나'만' 이용하여 처음부터 끝까지 원소를 탐색하며   
   조건에 맞는 소스코드를 작성했을 것이다. 예를 들어, 백준 10808번을 해결할 반복문을 보자. 
-  
-      ```cpp    
+   ```cpp    
       for(int i = 0; i < 26; i++){    
           for(int j = 0; j < str.size(); j++){    
               if(str[j] == i - 97) cnt++;    
@@ -35,7 +34,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
           cout << cnt << " ";    
           cnt = 0;    
       }    
-      ```    
+  ```    
       
   알파벳 개수를 출력하는 문제로 이중 배열을 사용하여 시간 복잡도가 O(26 * N)가 걸리는 것을 볼 수 있다.   
   배열과 반복문 문법만 안일하게 사용하여 벌어진 실수이다. 이것을 O(N)으로 해결할 수 있는 방법이 있다.   
