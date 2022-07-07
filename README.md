@@ -4,7 +4,7 @@ The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
-*자료구조나 자료구조를 이용한 유용한 방법, 알고리즘들은 Data Structur and Algorithms repo에 commit 됩니다.<br><br><br>
+*소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.
 
 # 1. Basic tips for Setup
 ## Let's use bits/stdc++.h 
