@@ -4,7 +4,7 @@ The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
-*자료구조나 자료구조를 이용한 유용한 방법, 알고리즘들은 Data Structur and Algorithms repo에 commit 됩니다.<br><br><br><br><br><br><br><br>
+*자료구조나 자료구조를 이용한 유용한 방법, 알고리즘들은 Data Structur and Algorithms repo에 commit 됩니다.<br><br>
 
 # Skills for Problem Solving
 ## 1. Useful Tips
