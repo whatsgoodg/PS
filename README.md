@@ -6,7 +6,7 @@ If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
 *자료구조나 자료구조를 이용한 유용한 방법, 알고리즘들은 Data Structur and Algorithms repo에 commit 됩니다.<br><br><br>
 
-# Basic tips for Setup
+# 1. Basic tips for Setup
 ## Let's use bits/stdc++.h 
  gcc 계열의 컴파일러를 사용하지 않는다면 따로 설정을 해주어야 하지만 매우 간단하다.<br>
  굳이 헤더를 모두 작성할 필요 없이 한 줄로 간결하게 끝낼 수 있다.<br>
@@ -49,6 +49,9 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   바로 이렇게 배열 하나만 더 만들어주는 것이다. 공간 복잡도는 조금 늘어날 수 있으나, 
   코딩 테스트에서 요구하는 공간 복잡도를 넘길 정도는 절대 아니다.(물론 넘기는 경우엔 다른 알고리즘을 요구하는게 분명할거다.)   
   이런 식으로 배열 하나를 더 추가함으로써 문제해결을 손쉽게 할 수 있게 된다.<br><br>
+  
+  ## List
+  
   
   
   # 3. Useful Functions
