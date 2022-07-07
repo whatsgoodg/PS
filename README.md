@@ -39,12 +39,12 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   알파벳 개수를 출력하는 문제로 이중 배열을 사용하여 시간 복잡도가 O(26 * N)가 걸리는 것을 볼 수 있다.   
   배열과 반복문 문법만 안일하게 사용하여 벌어진 실수이다. 이것을 O(N)으로 해결할 수 있는 방법이 있다.   
   
-      ```cpp    
+  ```cpp    
           char alphabet[26]{};    
           for(int i = 0; i < str.size(); i++){    
               alphabet[str[i] - 97]++    
           }    
-      ```    
+  ```    
       
   바로 이렇게 배열 하나만 더 만들어주는 것이다. 공간 복잡도는 조금 늘어날 수 있으나, 코딩 테스트에서 요구하는 공간 복잡도를    
   넘길 정도는 절대 아니다.(물론 넘기는 경우엔 다른 알고리즘을 요구하는게 분명할거다.)   
