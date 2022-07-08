@@ -64,7 +64,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   begin에 노드가 추가되고 반복자는 여전히 end를 가리킨다.   
   
   ***cpp    
-     list<char> inputs;//empty    
+     list<char> inputs;//empty        
      auto it = inputs.begin();//begin=end    
      inputs.insert(it, 1);    
      cout << *it << endl;//run-error: end는 아무 원소도 가리키지 않으므로 역참조 불가능    
