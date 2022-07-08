@@ -82,7 +82,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
      auto it = inputs.begin();   
      it = inputs.erase(it); //1이 삭제되고 2가 왼쪽으로 shift후 2를 가리키는 iterator 반환후 it 초기화   
   ```    
-  문제풀이: 커서의 위치를 담당하기 위한 end에 대한 이해, insert는 노드 앞에 삽입되므로 커서의 앞과 삽입되는 경우와 상통       
+  *** 문제풀이: 커서의 위치를 담당하기 위한 end에 대한 이해, insert는 노드 앞에 삽입되므로 커서의 앞과 삽입되는 경우와 상통       
   커서 앞의 문자가 삭제되므로 반복자에 --연산을 한 후 erase를 통한 삭제와 반복자 초기화(커서 초기화)    
   [소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/5397.cpp)<br><br><br>
   
