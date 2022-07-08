@@ -52,8 +52,13 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   이런 식으로 배열 하나를 더 추가함으로써 문제해결을 손쉽게 할 수 있게 된다.<br><br>
   
   ## List
-  
-  
+  리스트를 사용한 알고리즘 문제는 그리 많지 않다고 한다. 아마도 다른 자료구조들로 충분히 구현이 가능하기 때문이라고 생각한다.    
+  초심자 때 백준에서 머리가 깨지는 현상이 발생하는 텍스트 편집기를 연상케 하는 문제를 이용하여    
+  STL list(이중연결)를 어느정도 익힐 수 있다 그럼 문제 [5387](https://www.acmicpc.net/problem/5397)을 보자.    
+  굉장히 간단한 문제라고 생각했지만 계속 예외가 나와서 당황한 문제이다.    
+  이미지를 보면 이해가 굉장히 빨라진다.(탭에 그려볼걸..)    
+  <img src="https://github.com/whatsgoodg/Codes_for_tests/tree/main/images/LIST.JPG"  width="200" height="400"/>
+
   
   # 3. Useful Functions
   ## max_element (ForwardIterator first, ForwardIterator last)
