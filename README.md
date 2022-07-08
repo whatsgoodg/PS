@@ -27,7 +27,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이    
   선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며 조건에 맞는 소스코드를 작성했을 것이다.    
   예를 들어, 백준 [10808](https://www.acmicpc.net/problem/10808)번을 해결할 반복문을 보자.     
-   ```cpp    
+  ```cpp    
       for(int i = 0; i < 26; i++){    
           for(int j = 0; j < str.size(); j++){    
               if(str[j] == i + 97) cnt++;    
@@ -61,17 +61,20 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   그리고 list가 비어있는 상태엔 begin과 end가 동일하다.    
   ### insert     
   만약 아무 원소도 가지지 않은 list에 반복자를 사용하여 원소를 추가했을시    
-  begin에 노드가 추가되고 반복자는 여전히 end를 가리킨다.     
+  begin에 노드가 추가되고 반복자는 여전히 end를 가리킨다.   
+  
   ***cpp    
      list<char> inputs;//empty    
      auto it = inputs.begin();//begin=end    
      inputs.insert(it, 1);    
      cout << *it << endl;//run-error: end는 아무 원소도 가리키지 않으므로 역참조 불가능    
   ***    
+ 
   이 end를 이용하여 우린 텍스트 에디터 커서의 맨 마지막 자리를 표현해주면 된다.(글자가 입력되고 커서는 여전히 글자 뒤에 존재한다.)    
   ### erase    
   erase는 노드를 삭제하는 연산이다 삭제하고 나서 그 노드를 가리키는 반복자를 초기화 시켜줘야한다.(반복자가 가리키는 노드가 삭제되었으니)      
- erase는 노드가 삭제되었을 때 list의 노드들이 삭제된 노드의 다음 노드부터 한칸 왼쪽으로 shift 되기에 shift 연산 후의 노드의 반복자를 반환한다.      
+ erase는 노드가 삭제되었을 때 list의 노드들이 삭제된 노드의 다음 노드부터 한칸 왼쪽으로 shift 되기에 shift 연산 후의 노드의 반복자를 반환한다.  
+ 
   ***cpp   
      list<int> inputs;  
      inputs.push_back(1);   
@@ -79,6 +82,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
      auto it = inputs.begin();   
      it = inputs.erase(it); //1이 삭제되고 2가 왼쪽으로 shift후 2를 가리키는 iterator 반환후 it 초기화   
   ***    
+ 
   나머지 부분은 문제를 푼 후에 소스코드를 보면 될 것 같다.<br><br><br>
   
   
