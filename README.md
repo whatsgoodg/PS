@@ -63,25 +63,25 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   만약 아무 원소도 가지지 않은 list에 반복자를 사용하여 원소를 추가했을시    
   begin에 노드가 추가되고 반복자는 여전히 end를 가리킨다.   
   
-  ***cpp    
+  ```cpp    
      list<char> inputs;//empty        
      auto it = inputs.begin();//begin=end    
      inputs.insert(it, 1);    
      cout << *it << endl;//run-error: end는 아무 원소도 가리키지 않으므로 역참조 불가능    
-  ***    
+  ```    
  
   이 end를 이용하여 우린 텍스트 에디터 커서의 맨 마지막 자리를 표현해주면 된다.(글자가 입력되고 커서는 여전히 글자 뒤에 존재한다.)    
   ### erase    
   erase는 노드를 삭제하는 연산이다 삭제하고 나서 그 노드를 가리키는 반복자를 초기화 시켜줘야한다.(반복자가 가리키는 노드가 삭제되었으니)      
  erase는 노드가 삭제되었을 때 list의 노드들이 삭제된 노드의 다음 노드부터 한칸 왼쪽으로 shift 되기에 shift 연산 후의 노드의 반복자를 반환한다.  
  
-  ***cpp   
+  ```cpp   
      list<int> inputs;  
      inputs.push_back(1);   
      inputs.push_back(2);   
      auto it = inputs.begin();   
      it = inputs.erase(it); //1이 삭제되고 2가 왼쪽으로 shift후 2를 가리키는 iterator 반환후 it 초기화   
-  ***    
+  ```    
  
   나머지 부분은 문제를 푼 후에 소스코드를 보면 될 것 같다.<br><br><br>
   
