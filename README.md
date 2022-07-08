@@ -22,7 +22,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   이러한 flush는 시간이 상당히 걸리기에, 이것을 cin과 cout의 tie를 풀어준다.<br>
   같은 맥락으로 endl는 절대 사용하지 않는다.<br><br>
   
-  # 2. How to use data structure 
+  # 2. Primary usage of data structure in PS
   ## Array
   알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이    
   선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며 조건에 맞는 소스코드를 작성했을 것이다.    
@@ -51,13 +51,39 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   코딩 테스트에서 요구하는 공간 복잡도를 넘길 정도는 절대 아니다.(물론 넘기는 경우엔 다른 알고리즘을 요구하는게 분명할거다.)   
   이런 식으로 배열 하나를 더 추가함으로써 문제해결을 손쉽게 할 수 있게 된다.<br><br>
   
-  ## List
+  ## List     
   리스트를 사용한 알고리즘 문제는 그리 많지 않다고 한다. 아마도 다른 자료구조들로 충분히 구현이 가능하기 때문이라고 생각한다.    
-  초심자 때 백준에서 머리가 깨지는 현상이 발생하는 텍스트 편집기를 연상케 하는 문제를 이용하여    
-  STL list(이중연결)를 어느정도 익힐 수 있다 그럼 문제 [5387](https://www.acmicpc.net/problem/5397)을 보자.    
-  굉장히 간단한 문제라고 생각했지만 계속 예외가 나와서 당황한 문제이다.    
-  이미지를 보면 이해가 굉장히 빨라진다.(탭에 그려볼걸..)    
-  <img src="https://github.com/whatsgoodg/Codes_for_tests/blob/main/images/LIST.JPG?raw=true"  width="800" height="600"/>
+  텍스트 편집기를 연상케 하는 문제를 이용하여 STL list(이중연결)를 어느정도 익힐 수 있다. 그럼 문제 [5397](https://www.acmicpc.net/problem/5397)을 보자.    
+  굉장히 간단한 문제라고 생각했지만 계속 예외가 나와서 당황한 문제이다. 이미지를 보면 이해가 굉장히 빨라진다.(탭에 그려볼걸..)    
+  <img src="https://github.com/whatsgoodg/Codes_for_tests/blob/main/images/LIST.JPG?raw=true"  width="500" height="200"/>     
+  위의 사진을 보면 begin은 맨 처음 원소를 가리키는 iterator이다. end는 맨 마지막 원소 **다음**이다.    
+  이것은 **past-the-end**라고 불리며 맨 마지막 원소 다음이니 이미지와 같이 노드를 가리키는게 아니다. 마지막 노드 다음을 가리키는 것이다    
+  그리고 list가 비어있는 상태엔 begin과 end가 동일하다.    
+  ### insert     
+  만약 아무 원소도 가지지 않은 list에 반복자를 사용하여 원소를 추가했을시    
+  begin에 노드가 추가되고 반복자는 여전히 end를 가리킨다.     
+  ***cpp    
+     list<char> inputs;//empty    
+     auto it = inputs.begin();//begin=end    
+     inputs.insert(it, 1);    
+     cout << *it << endl;//run-error: end는 아무 원소도 가리키지 않으므로 역참조 불가능    
+  ***    
+  이 end를 이용하여 우린 텍스트 에디터 커서의 맨 마지막 자리를 표현해주면 된다.(글자가 입력되고 커서는 여전히 글자 뒤에 존재한다.)    
+  ### erase    
+  erase는 노드를 삭제하는 연산이다 삭제하고 나서 그 노드를 가리키는 반복자를 초기화 시켜줘야한다.(반복자가 가리키는 노드가 삭제되었으니)      
+ erase는 노드가 삭제되었을 때 list의 노드들이 삭제된 노드의 다음 노드부터 한칸 왼쪽으로 shift 되기에 shift 연산 후의 노드의 반복자를 반환한다.      
+  ***cpp   
+     list<int> inputs;  
+     inputs.push_back(1);   
+     inputs.push_back(2);   
+     auto it = inputs.begin();   
+     it = inputs.erase(it); //1이 삭제되고 2가 왼쪽으로 shift후 2를 가리키는 iterator 반환후 it 초기화   
+  ***    
+  나머지 부분은 문제를 푼 후에 소스코드를 보면 될 것 같다.<br><br><br>
+  
+  
+  
+  
 
   
   # 3. Useful Functions
