@@ -4,7 +4,7 @@ The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
-*소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.
+*소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.<br><br><br>
 
 # 1. Basic tips for Setup
 ## Let's use bits/stdc++.h 
@@ -20,7 +20,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ## cin.tie(0)
   C++에서 입력 후에 출력 순서를 맞추어 주기 위해 cin을 받기 전에 cout 버퍼를 모두 비워준다.<br>
   이러한 flush는 시간이 상당히 걸리기에, 이것을 cin과 cout의 tie를 풀어준다.<br>
-  같은 맥락으로 endl는 절대 사용하지 않는다.<br><br>
+  같은 맥락으로 endl는 절대 사용하지 않는다.<br><br><br>
   
   # 2. Primary usage of data structure in PS
   ## Array
