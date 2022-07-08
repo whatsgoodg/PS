@@ -57,7 +57,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   STL list(이중연결)를 어느정도 익힐 수 있다 그럼 문제 [5387](https://www.acmicpc.net/problem/5397)을 보자.    
   굉장히 간단한 문제라고 생각했지만 계속 예외가 나와서 당황한 문제이다.    
   이미지를 보면 이해가 굉장히 빨라진다.(탭에 그려볼걸..)    
-  <img src="https://github.com/whatsgoodg/Codes_for_tests/tree/main/images/LIST.JPG"  width="200" height="400"/>
+  <img src="[https://github.com/whatsgoodg/Codes_for_tests/tree/main/images/LIST.JPG](https://github.com/whatsgoodg/Codes_for_tests/blob/main/images/LIST.JPG?raw=true)"  width="200" height="400"/>
 
   
   # 3. Useful Functions
