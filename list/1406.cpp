@@ -49,16 +49,13 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> in2;
 		if (in2 == 'L') {
-			if (pre[cursor] != -1) //맨 왼쪽일 경우 커서 움직임x
-				cursor = pre[cursor];
+			if (pre[cursor] != -1) cursor = pre[cursor];//맨 왼쪽일 경우 커서 움직임x
 		}
 		else if (in2 == 'D') {
-			if (nxt[cursor] != -1)//맨 오른쪽일 경우 커서 움직임x
-				cursor = nxt[cursor];
+			if (nxt[cursor] != -1) cursor = nxt[cursor];//맨 오른쪽일 경우 커서 움직임x 
 		}	
 		else if (in2 == 'B') {//맨 왼쪽일 경우
-			if (cursor != 0)
-				erase(cursor);
+			if (cursor != 0) erase(cursor);
 		}
 		else if(in2 == 'P') {
 			char in3;
