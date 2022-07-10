@@ -29,8 +29,7 @@ int main() {
                     p = ans.erase(p);//이 때 왼쪽으로 shift된 노드를 가리키므로 커서의 위치는 이전과 다를게 없어진다.
                 }
             }
-            else
-                ans.insert(p, c);//커서 앞에 글자를 입력
+            else ans.insert(p, c);//커서 앞에 글자를 입력
         }
         for (char c : ans) cout << c;
         cout << '\n';
