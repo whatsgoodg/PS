@@ -5,7 +5,7 @@ const int capacity = 10000;
 int Stack[capacity]{};
 int Ssize = 0;
 int top = -1;
-
+//스택을 구현해보는 문제
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
