@@ -7,7 +7,6 @@ int main() {
 	cin.tie(0);
 	int n, th; cin >> n >> th;
 	list<int> L; for (int i = 1; i <= n; i++) L.push_back(i);
-
 	auto move = L.begin();
 	cout << '<';
 	for (int i = 0; i < n; i++) {
