@@ -6,7 +6,7 @@ If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
 *소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.<br><br><br>
 
-# 1. Basic tips for Setup
+# 1. Basic tips
 ## Let's use bits/stdc++.h 
  gcc 계열의 컴파일러를 사용하지 않는다면 따로 설정을 해주어야 하지만 매우 간단하다.<br>
  굳이 헤더를 모두 작성할 필요 없이 한 줄로 간결하게 끝낼 수 있다.<br>
