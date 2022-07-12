@@ -20,7 +20,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ## cin.tie(0)
   C++에서 입력 후에 출력 순서를 맞추어 주기 위해 cin을 받기 전에 cout 버퍼를 모두 비워준다.<br>
   이러한 flush는 시간이 상당히 걸리기에, 이것을 cin과 cout의 tie를 풀어준다.<br>
-  같은 맥락으로 endl는 절대 사용하지 않는다.<br><br><br>
+  같은 맥락으로 endl는 절대 사용하지 않는다.<br>
   
   ## Up to 100,000,000 times per a second
   (C++ 언어로 알고리즘 문제를 해결할 때 약 1초 제한에 1억번의 연산까지 가능하다는 소리를 많이 듣는다. 이는 넉넉히 잡은 것으로 1억 6천만번의 시간도 가능하다곤 한다.
@@ -35,7 +35,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   1초에 대한 최대 크기:    
   * O(N): 1억    
   * O(N^2): 1만
-  * O(N^3): 470
+  * O(N^3): 470<br><br><br>
   
   
   
