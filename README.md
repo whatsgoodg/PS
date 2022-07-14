@@ -40,7 +40,8 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   
   
   
-  # 2. Usage of data structure in PS
+  # 2. Elementary usage of data structure in PS    
+  자료구조를 이용한 알고리즘을 사용할 때 가장 기본적인 것들을 기록해 놓을 것이다.
   ## Array
   알고리즘 문제를 해결할 때, 필자처럼 프로그래밍 언어 문법만 배우고 코딩 테스트라는 사전 지식 없이    
   선형 자료구조인 배열을 하나만 이용하여 처음부터 끝까지 원소를 탐색하며 조건에 맞는 소스코드를 작성했을 것이다.    
@@ -126,7 +127,12 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
        tower.push(i);       
      }     
   ```    
-  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.<br><br>
+  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.<br>
+  ### Queue    
+  Queue는 아직 모르겠다.<br>
+  ### Deque
+  Deque를 사용해야 할 지 말 지에 대한 생각은 나름 Stack과 Queue보다는 나은 것 같다. Deque는 선형적으로 들어온 값들이 reverse가 되거나
+  맨 뒤의 원소가 맨 앞으로 가야하는 상황이 발생할 때 필요하다.
 
   
   
