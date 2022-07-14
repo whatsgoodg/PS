@@ -102,7 +102,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ```    
   **문제풀이**: 커서의 위치를 담당하기 위한 end에 대한 이해, insert는 노드 앞에 삽입되므로 커서의 앞과 삽입되는 경우와 상통       
   커서 앞의 문자가 삭제되므로 반복자에 --연산을 한 후 erase를 통한 삭제와 반복자 초기화(커서 초기화)    
-  [소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/5397.cpp)<br><br><br>
+  [소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/5397.cpp)<br><br>
   
   ## Stack, Queue, Deque     
   이 세 개의 자료구조를 이용하는 문제들은 다 비슷해 보이기 때문에, 문제들을 통해 세 가지의 차이점을 파악하는게 좋아 보인다.     
@@ -125,7 +125,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
        tower.push(i);       
      }     
   ```    
-  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.    
+  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.<br><br>
 
   
   
