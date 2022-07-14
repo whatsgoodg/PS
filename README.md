@@ -106,7 +106,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   [소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/5397.cpp)<br><br>
   
   ## Stack, Queue, Deque     
-  이 세 개의 자료구조를 이용하는 문제들은 다 비슷해 보이기 때문에, 문제들을 통해 세 가지의 차이점을 파악하는게 좋아 보인다.     
+  이 세 개의 자료구조는 매커니즘은 비슷하기 때문에, 문제들을 통해 세 가지의 차이점을 파악하는게 좋아 보인다.     
   ### Stack     
   Stack을 이용하여 괄호, 연산 등을 활용한 문제들은 Stack에 대한 이해(FILO)를 공고히 할 수 있겠지만, 골드 이상 문제를 풀 땐 좀 다른 것 같다.       
   [2493](https://www.acmicpc.net/problem/2493)문제를 읽어보자.     
@@ -129,12 +129,15 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   ```    
   [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.<br>
   ### Queue    
-  Queue는 아직 모르겠다.<br>
-  ### Deque
-  Deque를 사용해야 할 지 말 지에 대한 생각은 나름 Stack과 Queue보다는 나은 것 같다. Deque는 선형적으로 들어온 값들이 reverse가 되거나
-  맨 뒤의 원소가 맨 앞으로 가야하는 상황이 발생할 때 필요하다.
-
-  
+  queue는 선형적으로 값이 들어오고 들어온 순서대로 값이 나갈 때(FIFO) 사용하면 된다.
+  [2164](https://www.acmicpc.net/problem/2164) 문제를 보면 맨 앞의 카드를 뒤로 보내거나 버린다. queue를 이해하기 좋은 문제이다.<br>
+  ### Deque    
+  Deque의 구현은 queue + α 일 경우 사용하면 된다.
+  α: 선형적으로 들어온 값들이 reverse가 되거나 맨 뒤의 원소가 맨 앞으로 가야하는 상황 또는 반대일 때 필요하다.    
+  [1021](https://www.acmicpc.net/problem/1021) 문제: 최소로 움직이는 값을 원하기에, 원소가 위치한 idx를 구하고 그 위치가     
+  front에 가깝다면 앞으로 그리고 back에 가깝다면 뒤로 이동하면 된다.   
+  [5430](https://www.acmicpc.net/problem/5430) 문제: 선형적으로 들어온 원소를 뒤집는 행위와 앞의 원소를 제거하는 행위가 필요하기에     
+  정말 간단하게, 한 번 뒤집었을 경우 원래 deque의 front는 back이 되기에 pop_back을 해주면 된다. 짝수번 뒤집었다면 pop_front를 해주면 된다.<br><br><br>
   
   
   
