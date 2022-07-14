@@ -104,6 +104,9 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
   커서 앞의 문자가 삭제되므로 반복자에 --연산을 한 후 erase를 통한 삭제와 반복자 초기화(커서 초기화)    
   [소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/5397.cpp)<br><br><br>
   
+  ## Stack    
+  
+  
   
   
   
