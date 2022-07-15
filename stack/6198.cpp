@@ -19,5 +19,5 @@ int main(){
 		ans += S.size();
 		S.push(v);
 	}
-	cout << ans << "\n";
+	cout << ans;
 }
