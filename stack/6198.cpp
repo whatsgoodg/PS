@@ -4,7 +4,8 @@ using namespace std;
 
 stack<int> S;
 int N;
-int main() {
+
+int main(){
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	
@@ -14,9 +15,7 @@ int main() {
 	S.push(0);
 	for (int i = 0; i < N; i++) {
 		cin >> v;
-		while (!S.empty() && S.top() <= v) {
-			S.pop();
-		}
+		while (!S.empty() && S.top() <= v) S.pop();
 		ans += S.size();
 		S.push(v);
 	}
