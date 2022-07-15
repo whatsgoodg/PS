@@ -10,6 +10,7 @@ int main(void) {
   int n;
   cin >> n;
   for (int i = 0; i < n; i++) cin >> a[i];
+  
   stack<int> S;
   for (int i = n - 1; i >= 0; i--) {
     while (!S.empty() && S.top() <= a[i]) S.pop();
