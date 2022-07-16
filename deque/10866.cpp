@@ -37,7 +37,6 @@ int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	cin >> N;
-	
 	string in;
 	int v;
 	for (int i = 0; i < N; i++) {
