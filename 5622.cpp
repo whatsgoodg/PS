@@ -10,7 +10,6 @@ int main() {
 	int sum = 0;
 	for (char i : a) {
 		int temp = i - 65 //using ASCII
-
 		if (temp < 3) sum += 3; //three letters in one dial
 		else if (temp < 6) sum += 4;
 		else if (temp < 9) sum += 5;
