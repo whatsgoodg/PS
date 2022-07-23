@@ -31,7 +31,7 @@
   1. Stack이 비어있지 않은 경우     
   2. 적합하지 않은 괄호가 나온 경우     
              
-  이 예외만 기억을 잘 하고 있다면 수식과 관련된 문제들은 쉽게 처리할 수 있을 것이다. [4949 소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/stack(bracket).cpp/4949.cpp)<br>
+  이 예외만 기억을 잘 하고 있다면 수식과 관련된 문제들은 쉽게 처리할 수 있을 것이다.<br>
   
   ## Queue    
   queue는 선형적으로 값이 들어오고 들어온 순서대로 값이 나갈 때(FIFO) 사용하면 된다.     
