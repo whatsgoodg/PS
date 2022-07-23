@@ -7,6 +7,8 @@
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
   * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
   * [BFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/bfs.md)   
+  * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
+  * [Recursive]()
   <br><br>
   
 # 2. Basic tips
