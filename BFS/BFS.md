@@ -17,7 +17,7 @@
 * 상하좌우(너비)를 우선적으로 방문하기 위한 큐(3)     
     
      
-***cpp
+```cpp
 #include <queue>
 #include <utility>
 using namespace std;
@@ -43,4 +43,4 @@ int main() {
 	    }
     }
 }
-***    
+```   
