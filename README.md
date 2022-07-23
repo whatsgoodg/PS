@@ -1,11 +1,7 @@
 # For Coding Test
-There will be codse for BackJoon wrritten in C++<br>
-The names of files will be the problem number<br>
-Codes will be explained by comments if a problem is considered easy<br>
-If it's considered hard, codes will be explained with an extra file<br>
-Algorithms are going to be written in Data Structur & Algorithms repo<br>
+코딩 테스트를 위한 팁들
 
-  # 1. Elementary usage of data structure in PS    
+# 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘의 기초 사용    
   * [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
