@@ -7,7 +7,7 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
 *소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.<br><br><br>
 
   # 2. Elementary usage of data structure in PS    
-  ## 자료구조나, 알고리즘의 기초 사용    
+  ## 자료구조, 알고리즘의 기초 사용    
   * [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
   * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
