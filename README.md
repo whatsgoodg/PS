@@ -1,5 +1,5 @@
 # For Coding Test
-코딩 테스트를 위한 팁들<br><br>
+코딩 테스트를 위한 모든 것<br><br>
 
 # 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘의 기초 사용    
