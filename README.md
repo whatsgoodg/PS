@@ -1,5 +1,5 @@
 # For Coding Test
-코딩 테스트를 위한 팁들
+코딩 테스트를 위한 팁들<br><br>
 
 # 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘의 기초 사용    
@@ -7,7 +7,7 @@
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
   * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
   * [BFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/bfs.md)   
-  <br><br><br>
+  <br><br>
   
 # 2. Basic tips
 ## Let's use bits/stdc++.h 
@@ -38,7 +38,7 @@
   1초에 대한 최대 크기:    
   * O(N): 1억    
   * O(N^2): 1만
-  * O(N^3): 470<br><br><br>
+  * O(N^3): 470<br><br>
    
   # 3. Useful Functions
   ## max_element (ForwardIterator first, ForwardIterator last)
