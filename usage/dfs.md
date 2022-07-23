@@ -17,13 +17,13 @@ int main() {
     while (Q.empty()) {
         pair<int, int> cur = Q.top(); Q.pop();
         for (int i = 0; i < 4; i++) {
-	          int x = cur.first + dx[i];
-	          int y = cur.second + dy[i];
+	    int x = cur.first + dx[i];
+	    int y = cur.second + dy[i];
             if (x < 0 || x >= 100 || y < 0 || y >= 100) continue;
-	          if (visited[x][y] || !board[x][y]) continue;
-	          visited[x][y] = 1;
-	          Q.push({ x,y });
-	      }
+	    if (visited[x][y] || !board[x][y]) continue;
+	    visited[x][y] = 1;
+	    Q.push({ x,y });
+        }
     }
 }
 ```    
