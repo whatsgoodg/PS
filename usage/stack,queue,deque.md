@@ -2,7 +2,7 @@
   이 세 개의 자료구조는 매커니즘은 비슷하기 때문에, 문제들을 통해 세 가지의 차이점을 파악하는게 좋아 보인다.     
   ## Stack     
   Stack을 이용하여 괄호, 연산 등을 활용한 문제들은 Stack에 대한 이해(FILO)를 공고히 할 수 있겠지만, 골드 이상 문제를 풀 땐 좀 다른 것 같다.       
-  [2493](https://www.acmicpc.net/problem/2493)문제를 읽어보자.     
+  [2493](https://www.acmicpc.net/problem/2493)문제([소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/stack/2493.cpp))를 읽어보자.     
   이 문제는 선형적으로 값이 들어오고, 들어오는 값마다 ***왼쪽***에 레이저를 쏜다. 그리고 새로운 값보다 큰 탑***만*** 만나면 되기 때문에    
   Stack(왼쪽)에 있어야 할 값은 ***지금까지 들어왔던 값 들의 내림차순 배열이다.***     
   예제를 보면 9가 가장 큰 포탑이여도 4가 들어왔을 땐 그냥 4보다 큰 7이 레이저를 맞는 것을 볼 수 있다.    
@@ -20,11 +20,11 @@
        tower.push(i);       
      }     
   ```    
-  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.<br>
+  [6198](https://www.acmicpc.net/problem/6198), [17298](https://www.acmicpc.net/problem/17298)문제도 이와 거의 비슷한 문제이다.[6198 소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/stack/6198.cpp), [17298 소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/stack/17298.cpp)<br>
   ## Stack(brackets)    
   스택의 성질을 이해하기 위한 괄호의 쌍을 이용한 문제들을 많이 풀어보면 좋다.           
   이 내용들은 기본적인 세 가지 예외만 파악하고 있으면 된다. 나머진 ***+α***로, 그리 어렵지 않은 부가적 요소만 생각해 내면 된다.     
-  [4949](https://www.acmicpc.net/problem/4949)문제를 보자, 이 문제는 정말 간단하게 생각하면 된다.       
+  [4949](https://www.acmicpc.net/problem/4949)문제([소스코드](https://github.com/whatsgoodg/Codes_for_tests/blob/main/stack(bracket).cpp/4949.cpp))를 보자, 이 문제는 정말 간단하게 생각하면 된다.       
   만약 ***(*** 또는 ***[*** 괄호 차례라면 Stack에 push한다. 그리고 ***)*** 또는 ***]*** 괄호 차례라면 Stack의 top과 비교해       
   적합한 괄호라면 pop을 하고 진행한다. 모든 괄호를 처리하고 나서 Stack이 ***비어***있다면 알맞은 괄호이기에 yes를 출력한다.     
   그렇다면 예외는 잘 보일 것이다.        
