@@ -14,4 +14,32 @@
 * 방문해야할 이차원 배열(1)    
 * 방문 상태를 저장할 이차원 배열(2)    
 * 상하좌우를 방문하기 위한 배열(3)    
-* 상하좌우(너비)를 우선적으로 방문하기 위한 큐(3)    
+* 상하좌우(너비)를 우선적으로 방문하기 위한 큐(3)     
+    
+***cpp
+#include <queue>
+#include <utility>
+using namespace std;
+
+int board[100][100];
+int visited[100][100];
+int dx[4]{ 0,1,-1,0 };
+int dy[4]{ 1,0,0,-1 };
+
+int main() {
+	queue<pair<int, int>> Q;
+	Q.push({ 0,0 });
+	visited[0][0] = 1;
+	while (Q.empty()) {
+		pair<int, int> cur = Q.front(); Q.pop();
+		for (int i = 0; i < 4; i++) {
+			int x = cur.first + dx[i];
+			int y = cur.second + dy[i];
+			if (x < 0 || x >= 100 || y < 0 || y >= 100) continue;
+			if (visited[x][y] || !board[x][y]) continue;
+			visited[x][y] = 1;
+			Q.push({ x,y });
+		}
+	}
+}
+***
