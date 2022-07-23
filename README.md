@@ -8,10 +8,11 @@ Algorithms are going to be written in Data Structur & Algorithms repo<br>
 
   # 2. Elementary usage of data structure in PS    
   ## 자료구조나, 알고리즘의 기초 사용    
-  [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
-  [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
-  [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
-  [BFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/bfs.md)    
+  * [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
+  * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
+  * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
+  * [BFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/bfs.md)   
+  <br><br><br>
   
 # 2. Basic tips
 ## Let's use bits/stdc++.h 
