@@ -3,7 +3,7 @@
 원래 BFS는 graph 자료구조의 vertex(정점)를 모두 방문하기 위해 사용되는 알고리즘이다. BFS는 Breadith 즉, 너비를 우선적으로 방문하기에 한 정점을 기준으로    
 그 정점과 incident vertecies(가장 가까이에 있는 정점들)을 방문하고 그 방문된 정점들에게 똑같은 행위를 반복하여 모든 정점을 방문한다.       
 이 원리를 이용하여 Flood Fill(예를 들어, 외부 윤곽선 안에 있는 모든 영역을 하나의 색으로 덮어쓰는 알고리즘이다)을 BFS로 구현할 수 있다.      
- <img src="https://github.com/whatsgoodg/Codes_for_tests/blob/main/BFS/images/fish.png?raw=true"  width="500" height="200"/>     
+ <img src="https://github.com/whatsgoodg/Codes_for_tests/blob/main/BFS/images/fish.png?raw=true"  width="400" height="300"/>     
 위의 그림은 Flood Fill의 예시이다. 이러한 기능을 BFS로 어떻게 구현해야할까? 위의 빨간색 원을 기준으로 상하좌우를 탐색한다. 
 1. 상하좌우를 탐색했을 때, 윤곽선을 넘어간다면 탐색을 하지 않는다.
 2. 상하좌우를 탐색했을 때, 탐색한 곳이 이미 연두색이라면 탐색을 하지 않는다.
