@@ -4,7 +4,6 @@ The names of files will be the problem number<br>
 Codes will be explained by comments if a problem is considered easy<br>
 If it's considered hard, codes will be explained with an extra file<br>
 Algorithms are going to be written in Data Structur & Algorithms repo<br>
-*소소한 팁들을 제공해주는 README로, 자료구조 개념(구현 소스코드), 심화 알고리즘(ex. DFS, BFS)는 블로그나 다른 repo에 업로드 됩니다.<br><br><br>
 
   # 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘의 기초 사용    
