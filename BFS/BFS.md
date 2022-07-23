@@ -14,7 +14,7 @@
 * 방문해야할 이차원 배열(1)    
 * 방문 상태를 저장할 이차원 배열(2)    
 * 상하좌우를 방문하기 위한 배열(3)    
-* 상하좌우(너비)를 우선적으로 방문하기 위한 큐(3)     
+* 상하좌우(너비)를 우선적으로 방문하기 위한 큐(4)     
     
      
 ```cpp
@@ -22,13 +22,13 @@
 #include <utility>
 using namespace std;
 
-int board[100][100];
-int visited[100][100];
-int dx[4]{ 0,1,-1,0 };
+int board[100][100]; //(1)
+int visited[100][100]; //(2)
+int dx[4]{ 0,1,-1,0 }; //(3)
 int dy[4]{ 1,0,0,-1 };
 
 int main() {
-    queue<pair<int, int>> Q;
+    queue<pair<int, int>> Q; //(4)
     Q.push({ 0,0 });
     visited[0][0] = 1;
     while (Q.empty()) {
