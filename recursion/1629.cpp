@@ -17,5 +17,4 @@ int main() {
 	cin >> A >> B >> C;
 
 	cout << POW(A, B, C);
-
 }
