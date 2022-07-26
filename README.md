@@ -57,3 +57,5 @@
   container의 [first, last) 범위에 있는 모든 원소를 v로 초기화하는 함수이다.<br>
   첫 번째, 두 번째 인자는 위의 함수와 동일하다.<br>
   return: (x) <br>
+  
+  # max, min함수와 find(자료구조)함수를 공부하자.     
