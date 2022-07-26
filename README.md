@@ -58,4 +58,4 @@
   첫 번째, 두 번째 인자는 위의 함수와 동일하다.<br>
   return: (x) <br>
   
-  # max, min함수와 find(자료구조)함수를 공부하자.     
+  # max, min함수와 find(자료구조), next_permutation함수를 공부하자.     
