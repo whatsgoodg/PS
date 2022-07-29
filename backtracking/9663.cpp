@@ -14,7 +14,6 @@ void func(int n) {
 	if (n == N) {
 		ans++;
 		return;
-
 	}
 	for (int i = 0; i < N; i++) {
 		if (straight[i] || Rdiagonal[n + i] || Ldiagonal[n - i + N - 1]) continue;
