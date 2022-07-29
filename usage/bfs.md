@@ -4,11 +4,11 @@
 그 정점과 incident vertecies(가장 가까이에 있는 정점들)을 방문하고 그 방문된 정점들에게 똑같은 행위를 반복하여 모든 정점을 방문한다.       
 이 원리를 이용하여 Flood Fill(예를 들어, 외부 윤곽선 안에 있는 모든 영역을 하나의 색으로 덮어쓰는 알고리즘이다)을 BFS로 구현할 수 있다.      
     
- <img src="https://github.com/whatsgoodg/Codes_for_tests/blob/main/BFS/images/fish.png?raw=true"  width="400" height="300"/>     
+ <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Wfm_floodfill_animation_queue.gif"  width="400" height="300"/>     
      
-위의 그림은 Flood Fill의 예시이다. 이러한 기능을 BFS로 어떻게 구현해야할까? 위의 빨간색 원을 기준으로 상하좌우를 탐색한다. 
+위의 그림은 Flood Fill의 예시이다. 이러한 기능을 BFS로 어떻게 구현해야할까? 큐를 이용하여 구현할 수 있다.
 > 1. 상하좌우를 탐색했을 때, 윤곽선을 넘어간다면 탐색을 하지 않는다.
-> 2. 상하좌우를 탐색했을 때, 탐색한 곳이 이미 연두색이라면 탐색을 하지 않는다.
+> 2. 상하좌우를 탐색했을 때, 탐색한 곳이 이미 색이 있다면 탐색을 하지 않는다.
     
 만약 윤곽선 안이고 연두색이 아니라면 탐색을 돌아 윤곽선 안에 있는 모든 영역을 방문하여 연두색으로 채워주면 된다.  
     
