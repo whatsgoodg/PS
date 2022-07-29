@@ -1,5 +1,6 @@
 # BFS    
 ## BFS 기본 개념
+### Flood Fill     
 원래 BFS는 graph 자료구조의 vertex(정점)를 모두 방문하기 위해 사용되는 알고리즘이다.       
 BFS는 Breadith 즉, 너비를 우선적으로 방문하기에 한 정점을 기준으로         
 그 정점과 incident vertecies(가장 가까이에 있는 정점들)을 방문하고 그 방문된 정점들에게 똑같은 행위를 반복하여 모든 정점을 방문한다.       
