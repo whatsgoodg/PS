@@ -29,10 +29,37 @@ BFS는 Breadith(너비)를 우선적으로 탐색하기 때문에 네 방향(상
 Queue는 FIFO란 특성을 가지고 있기 때문에, 맨 처음으로 들어온 네 방향이 Stack과 다르게 먼저 나갈 우선순위를 가지게 된다.     
 그렇기 때문에 네 방향이 먼저 탐색되는 것이다.     
 
-    
-이제 ***BFS 구현***을 알아보자.    
+이제 ***DFS 구현***을 알아보자.    
 우린 기본적으로 네 가지의 자료구조가 필수적으로 필요하다.
 > * 방문해야할 이차원 배열(1)    
 > * 방문 상태를 저장할 이차원 배열(2)    
 > * 상하좌우를 방문하기 위한 배열(3)    
-> * 상하좌우(너비)를 우선적으로 방문하기 위한 큐(4)     
+> * 상하좌우 중 한 곳(깊이)를 우선적으로 방문하기 위한 Stack(4)     
+
+```cpp
+#include <stack>
+#include <utility>
+using namespace std;
+
+int board[100][100]; //(1)
+int visited[100][100]; //(2)
+int dx[4]{ 0,1,-1,0 }; //(3)
+int dy[4]{ 1,0,0,-1 };
+
+int main() {
+    stack<pair<int, int>> S; //(4)
+    Q.push({ 0,0 });
+    visited[0][0] = 1;
+    while (Q.empty()) {
+        pair<int, int> cur = Q.top(); Q.pop();
+        for (int i = 0; i < 4; i++) {
+	    int x = cur.first + dx[i];
+	    int y = cur.second + dy[i];
+            if (x < 0 || x >= 100 || y < 0 || y >= 100) continue;
+	    if (visited[x][y] || !board[x][y]) continue;
+	    visited[x][y] = 1;
+	    Q.push({ x,y });
+        }
+    }
+}
+```    
