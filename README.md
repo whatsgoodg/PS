@@ -10,7 +10,6 @@
   * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
   * [Recursive](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/recursive.md)
   * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
-  * [Bruteforce(DFS+BFS+Sequence)]()
   <br><br>
   
 # 2. Basic tips
