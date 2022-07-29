@@ -1,8 +1,9 @@
 # DFS     
 ## DFS 기본 개념    
 ### Flood Fill  
-원래 BFS는 graph 자료구조의 vertex(정점)를 모두 방문하기 위해 사용되는 알고리즘이다. DFS는 Depth 즉, 깊이를 우선적으로 방문하기에 한 정점을 기준으로       
-그 정점과 incident vertecies(가장 가까이에 있는 정점들)중 한 곳을 우선적으로 방문하고 방문된 정점을 기준으로 똑같이 반복한다.         
+원래 BFS는 graph 자료구조의 vertex(정점)를 모두 방문하기 위해 사용되는 알고리즘이다.       
+DFS는 Depth 즉, 깊이를 우선적으로 방문하기에 한 정점을 기준으로         
+그 정점과 incident vertecies(가장 가까이에 있는 정점들)중 한 곳을 우선적으로 방문하고 방문된 정점을 기준으로 반복한다.         
 이 원리를 이용하여 Flood Fill(예를 들어, 외부 윤곽선 안에 있는 모든 영역을 하나의 색으로 덮어쓰는 알고리즘이다)을 DFS로 방문할 수 있다.        
           
  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Wfm_floodfill_animation_stack.gif"  width="400" height="300"/>        
@@ -62,4 +63,9 @@ int main() {
         }
     }
 }
-```    
+```       
+> 이는 Stack 자료구조를 이용하여 구현한 것이다. DFS는 대개 재귀함수로 많이 구현된다.        
+> 이는 ***backtracking*** 알고리즘을 구현하기 위하여 사용된다.        
+> BFS와 DFS는 방법론이다. 이차원 배열에 DFS와 BFS를 사용할 수 있는 이유는 모든 데이터에 대해서         
+> 그래프의 형태로 적용할 수 있기 때문이다. 하나의 배열의 cell을 기준으로 상하좌우의 cells은 incident vertices이다.           
+> 그리고 각 cell의 간선은 index이며 이는 이차원 배열을 무방향 그래프로 모델링한 것이며      
