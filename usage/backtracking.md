@@ -17,8 +17,9 @@
 그렇다면 이런 결과가 나오게 된다.
 > 1. Stack 자료구조를 사용하는 DFS는 백트래킹과 매우 유사하다.
 > 2. DFS는 (백트래킹-가지치기) 형태이다.
-> ***결론적으로 DFS에 탐색 조건을 추가한다면 백트래킹 알고리즘이 되는 것이다.***         <br><br><br>
-
+> ***결론적으로 DFS에 탐색 조건을 추가한다면 백트래킹 알고리즘이 되는 것이다.***     
+        
+<br><br><br>
 ## 시간복잡도   
 DFS말고 백트래킹을 사용하는 이유가 무엇일까?       
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Depthfirst.png/250px-Depthfirst.png"  width="400" height="300"/>      
