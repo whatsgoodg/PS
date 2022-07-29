@@ -7,12 +7,15 @@
  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Wfm_floodfill_animation_stack.gif"  width="400" height="300"/>        
         
 위의 그림은 Flood Fill의 예시이다. 이러한 기능을 DFS로 어떻게 구현해야할까? 스택를 이용하여 구현할 수 있다.        
-> 1. 시작 정점의 상하좌우 정점들을 Stack에 넣는다.      
-> 2. Stack의 top을 방문하고 이를 기준으로 상하좌우 정점들을 Stack에 넣는다.      
+> 1. 시작 정점의 상하좌우 정점들을 Stack에 넣는다.       
+> 2. Stack의 top을 방문하고 이를 기준으로 상하좌우 정점들을 Stack에 넣는다.       
+         
 방문이 끝났을 때 이전의 정점의 상하좌우중 탐색하지 않은 곳을 위의 행위를 반복할 것이다.         
 방문이 끝나는 기준은 이렇다.       
+       
 > 1. 윤곽선에 다다랐을 때 탐색을 멈춘다.          
 > 2. 이미 색이 채워져 있다면 탐색을 멈춘다.         
+       
 이는 BFS와 동일하다.        
         
 ## DFS vs BFS
