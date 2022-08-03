@@ -35,11 +35,11 @@
 (N - 1) * (N - 1)번으로 버블정렬도 ***O(N^2)*** 의 시간복잡도를 가진다.      
 ***source code***     
 ```cpp
-int arr[5]{ 2, 13, 6, 4, -2 };
-	int N = 15;
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N - 1 - i; j++) {
-			if (arr[j] > arr[j + 1]) swap(arr[i], arr[j + 1]);
-		}
+  int arr[5]{ 2, 13, 6, 4, -2 };
+  int N = 15;
+  for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N - 1 - i; j++) {
+	if (arr[j] > arr[j + 1]) swap(arr[i], arr[j + 1]);
 	}
+  }
 ```
