@@ -10,6 +10,7 @@
   * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
   * [Recursive](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/recursive.md)
   * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
+  * [Comparison Sort(selection, bubble, merge, quick)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)      
   <br><br>
   
 # 2. Basic tips
