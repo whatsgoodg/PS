@@ -10,8 +10,10 @@
   * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
   * [Recursive](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/recursive.md)
   * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
-  * [Comparison Sort(selection, bubble, merge, quick)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md), [stabl_sort 함수]
-  * [Non-comparison Sort(counting, radix)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md), [sort 함수]() 
+  * [Comparison Sort(selection, bubble, merge, quick)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md), 
+  * [STL stabl_sort]()
+  * [Non-comparison Sort(counting, radix)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)
+  * [STL sort]
   <br><br>
   
 # 2. Basic tips
