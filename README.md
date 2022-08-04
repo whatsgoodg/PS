@@ -2,7 +2,7 @@
 [BarkingDog](https://github.com/encrypted-def) 강의를 정리한 코딩 테스트 기초 지식<br><br>
 
 # 1. Elementary usage of data structure in PS    
-  ## 자료구조, 알고리즘의 기초 사용    
+  ## 자료구조, 알고리즘의 기초 사용  
   * [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
   * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
@@ -10,8 +10,8 @@
   * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
   * [Recursive](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/recursive.md)
   * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
-  * [Comparison Sort(selection, bubble, merge, quick)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)   
-  * [Non-comparison Sort(counting, radix)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)   
+  * [Comparison Sort(selection, bubble, merge, quick)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md), [stabl_sort 함수]
+  * [Non-comparison Sort(counting, radix)](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md), [sort 함수]() 
   <br><br>
   
 # 2. Basic tips
