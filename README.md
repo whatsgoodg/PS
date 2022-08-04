@@ -45,7 +45,8 @@
   > * O(N^3): 470     
    
   ### 공간복잡도     
-  별도로 백준에서 메모리 제한을 128mb, 256mb, 512mb들로 대개 정해져있다. 512mb를 기준으로 정수형(int)타입을 대략 1.6억개를 저장할 수 있다.<br><br>
+  별도로 백준에서 메모리 제한을 128mb, 256mb, 512mb들로 대개 정해져있다.      
+  512mb를 기준으로 정수형(int)타입을 대략 1.6억개를 저장할 수 있다.<br><br>
    
   # 3. Useful Functions
   ## max_element (ForwardIterator first, ForwardIterator last)
