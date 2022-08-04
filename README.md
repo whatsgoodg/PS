@@ -4,6 +4,7 @@
 
 # 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘, STL 함수의 기초 사용  
+  ### 자료구조 및 알고리즘
   * [Array](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/array.md)    
   * [List](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/list.md)    
   * [Stack, Queue, Deque](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/stack%2Cqueue%2Cdeque.md)    
