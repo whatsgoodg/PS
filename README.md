@@ -1,5 +1,5 @@
 # For Coding Test
-코딩 테스트를 위한 기초 지식<br><br>
+[BarkingDog](https://github.com/encrypted-def) 강의를 정리한 코딩 테스트 기초 지식<br><br>
 
 # 1. Elementary usage of data structure in PS    
   ## 자료구조, 알고리즘의 기초 사용    
