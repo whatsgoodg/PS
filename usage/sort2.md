@@ -7,12 +7,9 @@
 ### source code        
 ```cpp   
 int arr[7]{ 3, 3, 4, 6, 7, 7, 2 };
-int nums[8]{ 0, 0, 1, 2, 1, 0, 1, 2 }; //arr의 값들로 nums를 인덱싱하여 원소 개수를 센다.
+int nums[8]{ 0, 0, 1, 2, 1, 0, 1, 2 }; //arr 의 값들로 nums를 인덱싱하여 원소 개수를 센다.
 for (int i = 0; i < 8; i++) {
-		while (nums[i]) { //개수만큼 원소 출력 개수가 0이되면 반복문 종료
-		    std::cout << i << ' ';
-			  nums[i]--;
-		}
+   while (nums[i]--) std::cout << i << ' ';// 개수만큼 원소 출력 개수가 0이되면 반복문 종료
 }
 ```     
 ***문제*** [15688](https://www.acmicpc.net/problem/15688)            
