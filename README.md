@@ -9,7 +9,7 @@
   * [BFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/bfs.md)   
   * [DFS](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/dfs.md)    
   * [Recursive](https://github.com/whatsgoodg/Codes_for_tests/blob/main/usage/recursive.md)
-  * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
+  * [Backtracking](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)***(DFS)***
   * [Comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)***(Selection, Bubble, Merge, Quick)***
   * [Non-comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)***(Counting, Radix)***
   ### 필요 함수들
