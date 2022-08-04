@@ -10,7 +10,7 @@
 * [선택정렬](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md#%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%ACselection-sort)
 * [버블정렬](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md#%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%ACbubble-sort)
 * [합병정렬](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md#%ED%95%A9%EB%B3%91%EC%A0%95%EB%A0%ACmerge-sort)
-* [빠른정렬]()
+* [빠른정렬](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md#%EB%B9%A0%EB%A5%B8%EC%A0%95%EB%A0%ACquick-sort)
 ## 선택정렬(Selection sort)     
 선택정렬은 삽입정렬과 다르게 이미 자료구조에 있는 데이터를 정렬하는 것이다.
 용어는 몰랐더라도 항상 사용하던 그 정렬이다. N개의 데이터가 배열에 있을 때, 맨 마지막 인덱스의 원소를 기준으로 나머지 원소들과 비교한다.     
