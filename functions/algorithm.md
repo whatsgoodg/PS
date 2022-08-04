@@ -14,4 +14,4 @@
   첫 번째, 두 번째 인자는 위의 함수와 동일하다.<br>
   return: (x) <br>
   
-  # max, min함수와 find(자료구조), next_permutation함수, tie 함수를 알아보자.
+  # max, min함수와 find(자료구조), next_permutation함수, tie, sort, stable_sort 함수를 알아보자.
