@@ -1,4 +1,4 @@
-# For Coding Test
+# For PS(Problem-Solving)
 [BarkingDog](https://github.com/encrypted-def) 강의를 정리한 코딩 테스트 기초 지식     
 * [***문제집***](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)<br><br>
 
