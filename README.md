@@ -12,7 +12,7 @@
   * [Backtracking(DFS)](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)     
   * [Comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)(Selection, Bubble, Merge, Quick)
   * [Non-comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)(Counting, Radix)
-  # 필요 함수들
+  ### 필요 함수들
   * [Functions]()
   <br><br>
   
