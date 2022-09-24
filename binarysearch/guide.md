@@ -59,6 +59,8 @@ st와 en은 arr[mid]가 target과 같아졌을 때에 생각만 잘하면 되기
 
 ### 구현
 ```cpp
+  int st = 0;
+  int en = N;
   while (st < en) {//leftmost
 	  int mid = (st + en) / 2;
 	  if (arr[mid] >= v) en = mid;
