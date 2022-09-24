@@ -59,4 +59,4 @@ st와 en은 arr[mid]가 target과 같아졌을 때에 생각만 잘하면 되기
 ### upper_bound, lower_bound          
 C++ algorithm 헤더에 upper_bound, lower_bound 함수를 제공해주는데, 두 함수의 매개변수는(array.begin, array.end, target)의 형태를 띠고 있다.       
 위의 코드와 동일하게 동작한다.         
-[https://www.acmicpc.net/problem/1920](https://www.acmicpc.net/problem/10816)](숫자 카드 2)문제를 풀어보자.        
+[https://www.acmicpc.net/problem/1920](https://www.acmicpc.net/problem/10816)(숫자 카드 2)문제를 풀어보자.        
