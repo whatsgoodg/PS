@@ -13,11 +13,12 @@
 ```cpp
   int st = 0;
   int en = N - 1;
-	while (st <= en) {//(4)
-			int mid = (en + st) / 2;
-			if (arrN[mid] < arrM[i]) st = mid + 1;//(1)
-			else if (arrN[mid] > arrM[i]) en = mid - 1;//(2)
-			else break;
+  while (st <= en) {//(4)
+	  int mid = (en + st) / 2;
+	  if (arrN[mid] < arrM[i]) st = mid + 1;//(1)
+	  else if (arrN[mid] > arrM[i]) en = mid - 1;//(2)
+	  else break;
+  }
 ```    
           
 > (1). 찾고자하는 수가 arr[mid]보다 더 작다면 st를 mid + 1로 옮긴다. 
@@ -54,7 +55,16 @@ st가 mid보다 한 칸 더 움직이는 기능을 하고, en은 mid자리에 �
 st와 en은 arr[mid]가 target과 같아졌을 때에 생각만 잘하면 되기 때문이다. leftmost를 찾을 땐, 같을 때 en을 움직이고 rightmost는 반대로 st을 움직인다.         
 왜냐하면 st와 en이 같은 수를 가지게 하기 위함이다. leftmost는 target보다 한 칸 앞에있는 수를 만나면 +1을 해주며 target을 찾는 순간 st는 움직이지 않는다.        
 반대로 rightmost + 1은 target보다 큰 수일 때만 en으로 초기화 시켜주면 된다.              
-그 이후 target 범위 내에 접근했을 때 자연스럽게 st는 leftmost에, en은 rightmost + 1에 존재할 것이다.           
+그 이후 target 범위 내에 접근했을 때 자연스럽게 st는 leftmost에, en은 rightmost + 1에 존재할 것이다.        
+
+### 구현
+```cpp
+  while (st < en) {//leftmost
+	  int mid = (st + en) / 2;
+	  if (arr[mid] >= v) en = mid;
+	  else st = mid + 1;
+  }
+```
               
 ### upper_bound, lower_bound          
 C++ algorithm 헤더에 upper_bound, lower_bound 함수를 제공해주는데, 두 함수의 매개변수는(array.begin, array.end, target)의 형태를 띠고 있다.       
