@@ -27,7 +27,7 @@
           
 ### binary_search
 C++ algorithm 헤더에 binary_search 함수를 제공해주는데, binary_search(array.begin, array.end, target)의 형태를 띠고 있고 위의 코드와 거의 동일하게 동작한다.         
-[https://www.acmicpc.net/problem/1920](수 찾기)문제를 풀어보자.         
+[수 찾기](https://www.acmicpc.net/problem/1920)문제를 풀어보자.         
            
 ## 찾고자하는 수가 두 개 이상일 경우     
 target을 찾았을 때 배열은 이미 정렬이 되어 있으니 target의 왼쪽과 오른쪽을 선형탐색으로 모두 확인한다면 target의 개수만큼 비례하기 때문에 시간초과가 날 수 있다.         
@@ -59,4 +59,4 @@ st와 en은 arr[mid]가 target과 같아졌을 때에 생각만 잘하면 되기
 ### upper_bound, lower_bound          
 C++ algorithm 헤더에 upper_bound, lower_bound 함수를 제공해주는데, 두 함수의 매개변수는(array.begin, array.end, target)의 형태를 띠고 있다.       
 위의 코드와 동일하게 동작한다.         
-[https://www.acmicpc.net/problem/1920](https://www.acmicpc.net/problem/10816)(숫자 카드 2)문제를 풀어보자.        
+[숫자 카드 2](https://www.acmicpc.net/problem/10816)문제를 풀어보자.        
