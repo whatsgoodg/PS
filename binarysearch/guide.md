@@ -35,7 +35,7 @@ target을 찾았을 때 배열은 이미 정렬이 되어 있으니 target의 �
 배열의 오름차순을 유지한다는 생각을 이용해야한다. 이것을 이용하여 (rightmost + 1) - (leftmost) = target의 개수를 구할 수 있게된다.          
 그렇다면 이분탐색을 두 번 사용하여 leftmost와 rightmost + 1 인덱스를 구하여야한다.      
           
-leftmost, rightmost 둘 다 두 가지 경우를 생각해야 한다.        
+### 두 가지 경우       
 > 1. target이 배열에 존재할 때               
 > 2. target이 배열에 존재하지 않을 때               
 2.: 삽입할 자리가 배열의 index N-1에 있을 수 있기에 en을 index N에 두어야 한다.               
