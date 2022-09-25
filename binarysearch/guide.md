@@ -72,4 +72,11 @@ st와 en은 arr[mid]가 target과 같아졌을 때에 생각만 잘하면 되기
 ### upper_bound, lower_bound          
 C++ algorithm 헤더에 upper_bound, lower_bound 함수를 제공해주는데, 두 함수의 매개변수는(array.begin, array.end, target)의 형태를 띠고 있다.       
 위의 코드와 동일하게 동작한다.         
-[숫자 카드 2](https://www.acmicpc.net/problem/10816)문제를 풀어보자.        
+[숫자 카드 2](https://www.acmicpc.net/problem/10816)문제를 풀어보자.    
+
+### rightmost + 1이 아니라 leftmost - 1이라면 어떻게 될까?    
+leftmost - 1이라면 mid = (st + en + 1) / 2로 해줘야 한다. 왜냐하면 기존의 leftmost나 rightmost는 조건에 따라 en이 mid로 초기화가 되고     
+st가 mid + 1로 초기화 되었다. 그리고 st와 en이 1차이인 상황에 arr[mid]가 target보다 작다면 st는 mid + 1로 바뀌었을 것이다.     
+그런데 만약 leftmost - 1을 구하는 상황에는, en이 움직여야 하는 상황(mid - 1)이기 때문에, st는 이전과 다르게 mid로 초기화가 될 것이다.          
+그렇다면 st와 en이 1차이가 나는 상황에 arr[mid]가 target보다 작으면 st는 계속해서 mid로 초기화되기 때문에 무한루프에 빠지게 된다.      
+이 점을 잘 인지해야한다.      
