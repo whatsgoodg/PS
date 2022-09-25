@@ -3,7 +3,7 @@
 using namespace std;
 
 //점화식: min(DP[i - 1],  DP[i / 2],  DP[i / 3] )
-
+//초기값 DP[1] = 0
 int D[1000001];
 int N;
 
