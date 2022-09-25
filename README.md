@@ -14,6 +14,8 @@
   * [Backtracking](https://github.com/whatsgoodg/PS/blob/main/usage/backtracking.md)***(DFS)***
   * [Comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort1.md)***(Selection, Bubble, Merge, Quick)***
   * [Non-comparison Sort](https://github.com/whatsgoodg/PS/blob/main/usage/sort2.md)***(Counting, Radix)***
+  * [Greedy](https://github.com/whatsgoodg/PS/blob/main/usage/greedy.md)
+  * [Binary Search](https://github.com/whatsgoodg/PS/blob/main/usage/BS.md)***(Parametric Search)***
   ### 필요 함수들
   * [Functions]()
   <br><br>
