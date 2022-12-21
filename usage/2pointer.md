@@ -55,3 +55,35 @@ int main() {
 >2. S보다 같거나 클 경우 최소 길이를 업데이트하고 st를 오른쪽으로 한 칸 이동한다.
 >**(st 기존 위치의 원소 값을 부분합에서 빼고 난 뒤 이동한다.)**
 >3. en이 N과 같고 부분합이 S보다 작을 경우 답을 출력하고 프로그램을 종료한다.
+### 정드답코드
+```cpp
+	#include <iostream>
+	#include <utility>
+	using namespace std;
+
+	int N, S;
+	int arr[100000];
+	int ans = 100000;
+	int sum;
+	int main() {
+		ios::sync_with_stdio(0);
+		cin.tie(0);	
+		cin >> N >> S;
+		for (int i = 0; i < N; i++) {
+			cin >> arr[i];
+		}
+		int en = 0;
+		sum = arr[en];
+		for (int st = 0; st < N; st++) {
+			while (en < N && sum < S) {
+                en++;
+				if(en != N) sum += arr[en];
+			}
+			if (en == N) break;
+			ans = min(ans, en - st + 1);
+			sum -= arr[st];
+		}
+		if (ans == 100000) cout << 0;
+		else cout << ans;
+	}
+```
