@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/86244920/208840727-8bd5cd31-444f-4264-9eed-ccfeff7ea38f.png)
 
 위의 이미지를 보면 st와 en은 index 0에서 시작한다. 투 포인터로 처리하기 위한 조건은 아래와 같다.
-> 각 st에 대해 arr[en] - arr[st]가 m 이상이 되는 최초의 en의를 찾은 뒤 arr[en + 1], arr[en + 1], ... ,arr[N-1]을 탐색할 필요가 없다.
+> 각 st에 대해 arr[en] - arr[st]가 m 이상이 되는 최초의 en의를 찾은 뒤 arr[en + 1], arr[en + 1], ... ,arr[N-1]을 탐색할 필요가 없다.(**M 이상의 최소값이기 때문이다.**)
 위의 조건을 바탕으로 아래와 같은 조건이 도출된다.
 >1. arr[en] - arr[st]가 M보다 **작은 경우** en을 **오른쪽으로 한 칸 이동한다.**
 >2. arr[en] - arr[st]가 M보다 **크거나 같은 경우** 대소비교를 통해 답을 업데이트하고 **st을 오른쪽으로 한 칸 이동한다.**
