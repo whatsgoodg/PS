@@ -10,6 +10,7 @@
 이 문제는 `이분탐색`으로 바로 해결할 수 있다.(투 포인터와 이분탐색은 오름차순 `정렬`이 필요하다.)
 배열 전체를 돌며 각각의 원소 x마다 x+M에 대해 lowwer_bound() 함수를 사용하거나 따로 구현하여 해결하면 된다.
 `투 포인터`로 풀이하는 경우는 indexing을 관리할 두 개의 변수가 필요하다: `st`, `en`
+
 ![image](https://user-images.githubusercontent.com/86244920/208840727-8bd5cd31-444f-4264-9eed-ccfeff7ea38f.png)
 위의 이미지를 보면 st와 en은 index 0에서 시작한다. 투 포인터로 처리하기 위한 조건은 아래와 같다.
 > 각 st에 대해 arr[en] - arr[st]가 m 이상이 되는 최초의 en의를 찾은 뒤 arr[en + 1], arr[en + 1], ... ,arr[N-1]을 탐색할 필요가 없다.
