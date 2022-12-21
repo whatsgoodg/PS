@@ -12,6 +12,7 @@
 `투 포인터`로 풀이하는 경우는 indexing을 관리할 두 개의 변수가 필요하다: `st`, `en`
 
 ![image](https://user-images.githubusercontent.com/86244920/208840727-8bd5cd31-444f-4264-9eed-ccfeff7ea38f.png)
+
 위의 이미지를 보면 st와 en은 index 0에서 시작한다. 투 포인터로 처리하기 위한 조건은 아래와 같다.
 > 각 st에 대해 arr[en] - arr[st]가 m 이상이 되는 최초의 en의를 찾은 뒤 arr[en + 1], arr[en + 1], ... ,arr[N-1]을 탐색할 필요가 없다.
 위의 조건을 바탕으로 아래와 같은 조건이 도출된다.
