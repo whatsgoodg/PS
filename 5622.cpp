@@ -19,5 +19,5 @@ int main() {
 		else if (temp < 22) sum += 9;
 		else if (temp < 26) sum += 10;
 	}
-	cout << sum << endl;
+	cout << sum << endl; 
 }
