@@ -11,7 +11,7 @@ HashTable을 이용한 PS에 집중하여 포스팅합니다.
 >* Cache hit ratio가 괜찮다. 
 >* Clustering을 어느정도 회피할 수 있다. 충돌 발생 시, 무조건적으로 Clustering이 발생하지 않음.
                 
-**Double Hashing**
+**`Double Hashing`**
 충돌 발생 시 이동할 칸의 수를 새로운 해시 함수로 계산하는 방식
 >* Clustering을 효과적으로 피할 수 있다.
 >* Cache hit ratio가 낮다.
