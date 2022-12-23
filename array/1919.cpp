@@ -28,5 +28,5 @@ int main() {
 			alpha[a[i] - 97] = alpha2[a[i] - 97] = 0;
 		}
 	}
-	cout << cnt << "\n";
+	cout << cnt << "\n"; 
 }
