@@ -43,15 +43,15 @@
   fill(pre, pre+MX, -1);
   fill(nxt, net+MX, -1);
   ```             
-  dat는 노드의 값, prv는 i 번째 원소에 대해 이전 원소의 인덱스, nxt는 다음 원소의 인덱스이다.               
+  **`dat`** 는 노드의 값, **`prv`** 는 i 번째 원소에 대해 이전 원소의 인덱스, **`nxt`** 는 다음 원소의 인덱스이다.               
   prv, nxt의 값이 -1이면 해당 원소의 이전/다음 원소가 존재하지 않는다는 의미이다.              
-  unused 현재 사용되지 않는 인덱스(새로운 원소가 들어갈 곳)이고, 원소가 추가되면 1씩 증가한다.                
+  `unused` 현재 사용되지 않는 인덱스(새로운 원소가 들어갈 곳)이고, 원소가 추가되면 1씩 증가한다.                
   0번지는 연결 리스트의 시작 원소로 고정되어 있다. 이는 시작점을 나타내는 dummy node이다.     
-  그렇다면 dummy node는 자연스럽게 head, unused는 tail이라 생각하면된다.          
+  그렇다면 `dummy node`는 자연스럽게 `head`, unused는 `tail`이라 생각하면된다.          
   ![image](https://user-images.githubusercontent.com/86244920/210210055-f7caa9aa-a19f-4c79-893e-8de43acc2581.png)              
                      
   위의 사진을 보고 원리를 이해하자.         
-  리스트의 모든 원소를 출력하는 `traverse`함수를 알아보자. 이해하기 굉장히 간단할 것이다.
+  리스트의 모든 원소를 출력하는 `traverse`함수를 알아보자. 이해하기 굉장히 간단할 것이다.       
   ```cpp
   void traverse() {
 	  int cur = nxt[0];
