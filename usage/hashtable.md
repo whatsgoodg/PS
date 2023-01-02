@@ -23,6 +23,7 @@ HashTable을 이용한 PS에 집중하여 포스팅합니다.
 * [unordered_map](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_map.cpp)     
 
 ## STL을 이용한 문제
+굉장히 간단하니 코드만 보자.
 ### [7785](https://www.acmicpc.net/problem/7785)      
 ```cpp
 #include <iostream>
