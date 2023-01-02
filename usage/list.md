@@ -52,8 +52,7 @@
   ![image](https://user-images.githubusercontent.com/86244920/210210055-f7caa9aa-a19f-4c79-893e-8de43acc2581.png)               
                       
   위의 사진을 보고 원리를 이해하자.        
-  위의 사진에서 보듯이 dummy node는 head라 하자. 그렇기 때문에 insert는 특정 노드 **뒤**에 삽입된다. 이점을 유의하자. 
-  
+                        
   리스트의 모든 원소를 출력하는 `traverse`함수를 알아보자. 이해하기 굉장히 간단할 것이다.                
   ### traverse          
   ```cpp
