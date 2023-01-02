@@ -125,4 +125,7 @@ int my_hash(string& s){
 (오버플로우를 주의하자.)
 
 ### Chaining
+구현을 하기 위해 이전에 구현했던 [list](https://github.com/whatsgoodg/PS/blob/main/list/1406.cpp)를 사용해야 한다.          
+
+
 ### Open Addressing
