@@ -20,7 +20,65 @@ HashTable을 이용한 PS에 집중하여 포스팅합니다.
 `예제코드`              
 * [unordered_set](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_set.cpp)               
 * [unordered_multiset](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_multiset.cpp)                 
-* [unordered_map](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_map.cpp)            
+* [unordered_map](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_map.cpp)     
+
+## STL을 이용한 문제
+### [7785](회사에 있는 사람)      
+```cpp
+#include <iostream>
+#include <unordered_set>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+unordered_set<string> s;
+
+int main(void){
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+
+  int n;
+  cin >> n;
+  while(n--){
+    string name, log;
+    cin >> name >> log;
+    if(log == "enter") s.insert(name);
+    else s.erase(name);
+  }
+  vector<string> ans(s.begin(), s.end());
+  sort(ans.begin(), ans.end(), greater<string>());
+  for(auto x : ans) cout << x << '\n';
+}
+```
+### [1620](나는야 포켓몬 마스터 이다솜) 
+```cpp
+#include <iostream>
+#include <unordered_map>
+#include <string>
+using namespace std;
+
+unordered_map<string, int> s2i;
+string i2s[100005];
+
+int main(void){
+  ios::sync_with_stdio(0);
+  cin.tie(0);
+  int n, m;
+  cin >> n >> m;
+  for(int i = 1; i <= n; i++){
+    cin >> i2s[i];
+    s2i[i2s[i]] = i;
+  }
+  while(m--){
+    string query;
+    cin >> query;
+    if(isdigit(query[0]))
+      cout << i2s[stoi(query)] << '\n';
+    else
+      cout << s2i[query] << '\n';
+  }
+}
+```
 
 ## Implementation       
 삼성 코딩 테스트에선 STL을 사용할 수 없기 때문에 해시 테이블을 따로 구현해야한다. 이 때 고려해야할 _**조건**_을 알아보자   
