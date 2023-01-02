@@ -23,7 +23,7 @@ HashTable을 이용한 PS에 집중하여 포스팅합니다.
 * [unordered_map](https://github.com/whatsgoodg/PS/blob/main/hashtable/unorder_map.cpp)     
 
 ## STL을 이용한 문제
-### [7785](회사에 있는 사람)      
+### [7785](https://www.acmicpc.net/problem/7785)      
 ```cpp
 #include <iostream>
 #include <unordered_set>
@@ -50,7 +50,7 @@ int main(void){
   for(auto x : ans) cout << x << '\n';
 }
 ```
-### [1620](나는야 포켓몬 마스터 이다솜) 
+### [1620](https://www.acmicpc.net/problem/1620) 
 ```cpp
 #include <iostream>
 #include <unordered_map>
