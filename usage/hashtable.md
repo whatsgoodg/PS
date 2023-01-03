@@ -158,4 +158,5 @@ int my_hash(string& s){
 [**소스코드**](https://github.com/whatsgoodg/PS/blob/main/hashtable/chaining.cpp)                
             
 ### Open Addressing     
+**`Linear probing`**을 통해 구현했기 때문에 굉장히 간단하다.          
 [소스코드](https://github.com/whatsgoodg/PS/blob/main/hashtable/openaddressing.cpp)              
