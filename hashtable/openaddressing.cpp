@@ -26,20 +26,20 @@ int find(string k) {
     int Hash = my_hash(k);
     while (status[Hash] != -1) { // empty가 아닐 경우
         if (key[Hash] == k && status[Hash] == 0) return Hash;
-        Hash++;
+        Hash = (Hash + 1) % M;
     }
     return -1;
 }
 
 void insert(string k, int v) { 
-    int Hash = my_hash(k);
     int dupli = find(k);
     if (dupli != -1) { //중복일 때
         val[dupli] = v;
         return;
     }
+    int Hash = my_hash(k);
     while (status[Hash] == 0) {// 값이 있을 경우 liner probing
-        Hash++;
+        Hash = (Hash + 1) % M;
     }
     status[Hash] = 0;
     key[Hash] = k;
@@ -53,7 +53,7 @@ void erase(string k) {
             status[Hash] = 1;
             return;
         }
-        Hash++;
+        Hash = (Hash + 1) % M;
     }
 }
 
@@ -86,7 +86,7 @@ void test() {
     assert(val[find("lemon")] == 6);
     cout << "good!\n";
 }
-
+        
 int main() {
     fill(status, status + M, EMPTY);
     test();
