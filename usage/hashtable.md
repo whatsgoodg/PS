@@ -85,8 +85,8 @@ int main(void){
 삼성 코딩 테스트에선 STL을 사용할 수 없기 때문에 해시 테이블을 따로 구현해야한다. 이 때 고려해야할 _**조건**_을 알아보자   
 **`삽입의 최대 횟수`** : 삽입의 최대 횟수는 해시 테이블에 들어가는 원소의 최대 개수이다.                
 그러므로 해시 테이블의 크기(capacity)를 잘 고려하여 구현해야 한다.                
-**`load factor`** (원소의 개수 / 테이블의 크기)를 작게 유지하면 충돌이 덜 일어나 시간 복잡도가 좋아진다 하지만, cache hit ratio와 공간 복잡도가 좋지 않아진다.           
-반대로 크게 유지한다면 시간 복잡도가 나빠진다.          
+**`load factor`** (원소의 개수 / 테이블의 크기)를 **작게** 유지하면 충돌이 덜 일어나 시간 복잡도가 좋아진다 하지만, cache hit ratio와 공간 복잡도가 좋지 않아진다.           
+반대로 **크게** 유지한다면 시간 복잡도가 나빠진다.          
 **`Chaining`** 을 구현할 때 충돌 발생을 감수하더라도 공간의 효율성을 위해 load factor를 **1 이하**로 두어야 한다.           
 **`Open addressing`** 을 구현할 때 각 인덱스에 반드시 하나의 원소가 들어가기 때문에 load factor를 **0.75 이하**로 두어야 한다.              
 요약하여 'Chaining'은 테이블의 크기를 **최대 삽입 횟수**로, Open addressing은 테이블의 크기를 **최대 삽입 횟수 * 1.33**으로 두는게 좋다.     
@@ -125,7 +125,7 @@ int my_hash(string& s){
 (오버플로우를 주의하자.)
 
 ### Chaining
-구현을 하기 위해 이전에 구현했던 [list](https://github.com/whatsgoodg/PS/blob/main/list/1406.cpp)를 사용해야 한다.
+구현을 하기 위해 이전에 구현했던 [list](https://github.com/whatsgoodg/PS/blob/main/list/1406.cpp)를 사용해야 한다.         
 [소스코드](https://github.com/whatsgoodg/PS/blob/main/hashtable/chaining.cpp)
 
 
