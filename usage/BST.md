@@ -1,7 +1,7 @@
 [이진 검색 트리](https://github.com/whatsgoodg/Data-Structure/blob/main/README.md#binary-search-tree) 포스트를 먼저 확인하자.               
                            
 # 이진 탐색 트리                     
-위의 포스트를 확인했다면, 단순하게 **STL의 사용법**을 익히고 다양한 문제를 풀면 된다.                   
+위의 포스트를 확인했다면, 단순하게 [**STL의 사용법**](https://github.com/whatsgoodg/PS/blob/main/BST/set_map.cpp)을 익히고 다양한 문제를 풀면 된다.                   
 set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 **차이**는 다음과 같다.    
 
 ```
