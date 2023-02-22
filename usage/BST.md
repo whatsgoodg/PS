@@ -4,8 +4,8 @@
 위의 포스트를 확인했다면, 단순하게 STL의 사용법을 익히고 다양한 문제를 풀면 된다.                   
 set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 차이는 다음과 같다.                
                         
->                \|     set             \| unordered_set                     
->\---------------------------------------------------------                  
+```                |     set             | unordered_set                     
+>---------------------------------------------------------                  
 >Ordering        | increasing  order   | no ordering                   
 >                | (by default)        |                
 >                     
@@ -17,7 +17,8 @@ set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unor
 >                   
 >Insertion time  | log(n) + Rebalance  | Same as search                 
 >                          
->Deletion time   | log(n) + Rebalance  | Same as search             
+>Deletion time   | log(n) + Rebalance  | Same as search    
+```
                  
 정렬 유무, 시간복잡도에서 알 수 있는 점은 어느 문제에서 두 자료구조를 사용할 지 정하는 것이다.            
 일반적인 set, map에서 제공하는 prev, next, lower_bound 멤버를 사용해야한다면 set을 사용하는 것이 좋다.                    
