@@ -4,7 +4,7 @@
 위의 포스트를 확인했다면, 단순하게 STL의 사용법을 익히고 다양한 문제를 풀면 된다.                   
 set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 차이는 다음과 같다.                
                         
->                |     set             | unordered_set                     
+>                \|     set             \| unordered_set                     
 >---------------------------------------------------------                  
 >Ordering        | increasing  order   | no ordering                   
 >                | (by default)        |                
