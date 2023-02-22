@@ -1,8 +1,8 @@
 [이진 검색 트리](https://github.com/whatsgoodg/Data-Structure/blob/main/README.md#binary-search-tree) 포스트를 먼저 확인하자.               
                            
 # 이진 탐색 트리                     
-위의 포스트를 확인했다면, 단순하게 STL의 사용법을 익히고 다양한 문제를 풀면 된다.                   
-set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 차이는 다음과 같다.    
+위의 포스트를 확인했다면, 단순하게 **STL의 사용법**을 익히고 다양한 문제를 풀면 된다.                   
+set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 **차이**는 다음과 같다.    
 
 ```
                 |     set             | unordered_set                     
@@ -21,8 +21,8 @@ Insertion time  | log(n) + Rebalance  | Same as search
 Deletion time   | log(n) + Rebalance  | Same as search    
 ```
                  
-정렬 유무, 시간복잡도에서 알 수 있는 점은 어느 문제에서 두 자료구조를 사용할 지 정하는 것이다.            
-일반적인 set, map에서 제공하는 prev, next, lower_bound 멤버를 사용해야한다면 set을 사용하는 것이 좋다.                    
+정렬 유무, 시간복잡도에서 알 수 있는 점은 어느 문제에서 두 자료구조를 사용할지 정하는 것이다.            
+일반적인 set, map에서 제공하는 <u>prev, next, lower_bound</u> 멤버를 사용해야한다면 set을 사용하는 것이 좋다.                    
 만약 원소의 삽입/검색/삭제만 빠르게 처리를 해야하는 상황이면 unordered 자료구조를 사용하는 것이 좋다.              
 평균적으론 unordered 자료구조가 빠르지만, 충돌 횟수가 많다면 성능 저하가 일어나기 때문에, 항상 빠르게 동작하는 것을 보장할 수 없다.                
 반면 set 자료구조는 무조건 lgN이기 때문에 시간복잡도를 정확하게 계산할 수 있다. ~~웬만하면 set 쓰자..~~           
