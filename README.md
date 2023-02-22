@@ -18,6 +18,7 @@
   * [Binary Search](https://github.com/whatsgoodg/PS/blob/main/usage/BS.md)***(Parametric Search)***
   * [Two Pointer](https://github.com/whatsgoodg/PS/blob/main/usage/2pointer.md#two-pointer)
   * [Hash Table](https://github.com/whatsgoodg/PS/blob/main/usage/hashtable.md)
+  * [Binary Search Tree](https://github.com/whatsgoodg/PS/blob/main/usage/BST.md)
   ### 필요 함수들
   * [Functions]()
   <br><br>
