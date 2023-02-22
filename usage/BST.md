@@ -5,7 +5,7 @@
 set, multiset, map 등이 있으며 기존에 배운 해시함수를 위한 unordered 자료구조와의 차이는 다음과 같다.                
                         
 >                \|     set             \| unordered_set                     
->---------------------------------------------------------                  
+>\---------------------------------------------------------                  
 >Ordering        | increasing  order   | no ordering                   
 >                | (by default)        |                
 >                     
