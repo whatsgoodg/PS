@@ -19,6 +19,7 @@
   * [Two Pointer](https://github.com/whatsgoodg/PS/blob/main/usage/2pointer.md#two-pointer)
   * [Hash Table](https://github.com/whatsgoodg/PS/blob/main/usage/hashtable.md)
   * [Binary Search Tree](https://github.com/whatsgoodg/PS/blob/main/usage/BST.md)
+  * [Priority Queue](https://github.com/whatsgoodg/PS/blob/main/usage/PQ.md)
   ### 필요 함수들
   * [Functions]()
   <br><br>
