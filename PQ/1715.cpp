@@ -2,6 +2,9 @@
 #include <queue>
 using namespace std;
 
+//그리디
+//가장 작은 수끼리 묶음을 만들어야 함.
+//두 개의 묶음을 만들 때마다 최소힙에 추가하며 비교 
 int N;
 priority_queue<int, vector<int>, greater<int>> PQ;
 int ans;
