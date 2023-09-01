@@ -16,8 +16,8 @@
   int en = N - 1;
   while (st <= en) {//(4)
 	  int mid = (en + st) / 2;
-	  if (arrN[mid] < arrM[i]) st = mid + 1;//(1)
-	  else if (arrN[mid] > arrM[i]) en = mid - 1;//(2)
+	  if (arrN[mid] < arrM[en]) st = mid + 1;//(1)
+	  else if (arrN[mid] > arrM[st]) en = mid - 1;//(2)
 	  else break;
   }
 ```    
