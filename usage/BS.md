@@ -32,11 +32,9 @@ C++ algorithm 헤더에 binary_search 함수를 제공해주는데, binary_searc
 [수 찾기](https://www.acmicpc.net/problem/1920)문제를 풀어보자.         
            
 ## 찾고자하는 수가 두 개 이상일 경우     
-target을 찾았을 때 배열은 이미 정렬이 되어 있으니 target의 왼쪽과 오른쪽을 선형탐색으로 모두 확인한다면 target의 개수만큼 비례하기 때문에 시간초과가 날 수 있다.         
-이를 해결하기 위해 target을 가장 왼쪽에 있는 target과 수가 같은 인덱스에 넣어주거나 target보다 큰 수가 처음으로 등장하는 index에 값을 삽입하여(right shift 개념)          
-배열의 오름차순을 유지한다는 생각을 이용해야한다. 이것을 이용하여 (rightmost + 1) - (leftmost) = target의 개수를 구할 수 있게된다.          
-그렇다면 이분탐색을 두 번 사용하여 leftmost와 rightmost + 1 인덱스를 구하여야한다.      
-          
+target을 찾았을 때 배열은 이미 정렬이 되어 있으니 target의 왼쪽과 오른쪽을 선형탐색으로 모두 확인한다면 target의 개수만큼 비례하기 때문에 시간초과가 날 수 있다.                        
+이를 이분탐색으로 처리할 수 있다. (target보다 처음으로 큰 수의 index - target의 leftmost index)이다.            
+                 
 ### 두 가지 경우       
 > 1. target이 배열에 존재할 때               
 > 2. target이 배열에 존재하지 않을 때         
