@@ -15,12 +15,12 @@
 using namespace std;
 
 
-int visited[10001];
-vector<pair<int, int>> V[10001];
+int visited[10001]; // 이미 MST에 포함되어 있는지
+vector<pair<int, int>> V[10001]; // idx: 시작 정점, first: 도착 정점, second: 간선 가중치
 
 priority_queue< tuple<int, int, int>,
 	vector<tuple<int, int, int>>,
-	greater<tuple<int, int, int>> > PQ;
+	greater<tuple<int, int, int>> > PQ; // min PQ
 
 
 
@@ -32,7 +32,7 @@ int main() {
 	long long ans = 0;
 	int first;
 	cin >> N >> M;
-	for (int i = 0; i < M; i++) {
+	for (int i = 0; i < M; i++) { // 정점, 간선 정보 저장
 		int st, en, len;
 		cin >> st >> en >> len;
 		V[st].push_back({ len, en });
@@ -41,10 +41,10 @@ int main() {
 	}
 
 	visited[first] = 1;
-	for (auto iter : V[first]) {
+	for (auto iter : V[first]) { // 아무 정점 PQ 저장
 		PQ.push({ iter.first, first, iter.second });
 	}
-	while (cnt < N - 1) {
+	while (cnt < N - 1) { // N-1번 4,6번 수행
 		int st, en, cost;
 		tie(cost, st, en) = PQ.top(); PQ.pop();
 		if (visited[en]) continue;
@@ -54,7 +54,7 @@ int main() {
 			if (!visited[iter.second])
 				PQ.push({ iter.first, en, iter.second });
 		}
-		ans += cost;
+		ans += cost; // MST 총 가중치 저장
 	}
 	cout << ans << '\n';
 }
