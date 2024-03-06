@@ -20,6 +20,8 @@
   * [Hash Table](https://github.com/whatsgoodg/PS/blob/main/usage/hashtable.md)
   * [Binary Search Tree](https://github.com/whatsgoodg/PS/blob/main/usage/BST.md)
   * [Priority Queue](https://github.com/whatsgoodg/PS/blob/main/usage/PQ.md)
+  * [Graph]()
+  * [Trees]()
   ### 필요 함수들
   * [Functions]()
   <br><br>
